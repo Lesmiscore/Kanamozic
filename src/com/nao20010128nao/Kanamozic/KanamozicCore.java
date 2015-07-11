@@ -106,6 +106,11 @@ public class KanamozicCore
 	 *FOR DEVELOPERS
 	 *
 	 *If you want to use this class in another platforms, please modify encodeBase64(String) and decodeBase64(String).
+	 *
+	 *Need specs
+	 * Delete all paddings(causes errors)
+	 * No line separator(causes errors)
+	 * Use toByteArray(String) and toString(byte[]) for create a encoded/decoded string
 	 */
 	public static String encodeBase64(String s){
 		return Base64.encodeToString(toByteArray(s),Base64.NO_WRAP|Base64.NO_PADDING);
