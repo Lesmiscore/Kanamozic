@@ -3,5 +3,6 @@
 
     <string name="hello">Hello World, MainActivity!</string>
     <string name="app_name">Kanamozic</string>
-
+	<string name="encode">↓Encode</string>
+	<string name="decode">↑Decode</string>
 </resources>
